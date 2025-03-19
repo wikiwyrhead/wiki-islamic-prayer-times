@@ -1,0 +1,170 @@
+/* Prayer Widget Styling */
+.prayer-widget {
+  text-align: center;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.prayer-list {
+  background: #e5e8d9; /* Pale Greenish Gray */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.prayer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #2a341a; /* Darker Green for better contrast */
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #c4c0a1; /* Earthy Olive Beige */
+}
+
+.prayer-item:last-child {
+  border-bottom: none;
+}
+
+.prayer-time {
+  background: #4f6326; /* Deep Gold */
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  min-width: 55px;
+  text-align: center;
+}
+
+/* Highlight Next Prayer */
+.next-prayer {
+  background: #a3d977; /* Vibrant Islamic Green */
+  color: #2a341a;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Countdown Timer */
+#countdown {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3e4f26;
+  margin-top: 12px;
+}
+
+/* Plugin Settings Styling */
+.settings-card {
+  margin: 20px 0;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.settings-card h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #23282d;
+}
+
+.donation-card {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.donation-content {
+  padding: 20px;
+}
+
+.donation-button {
+  margin-top: 15px;
+}
+
+.donation-button .button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.donation-button .button:hover {
+  background-color: #0056b3;
+}
+
+.donation-button .dashicons {
+  margin-right: 8px;
+}
+
+.donation-email {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .prayer-item {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .prayer-time {
+    min-width: 50px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  #countdown {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .prayer-widget {
+    font-size: 14px;
+  }
+  .prayer-item {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+  .next-prayer {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .settings-card {
+    padding: 15px;
+  }
+  .donation-card {
+    margin-top: 15px;
+  }
+  .donation-content {
+    padding: 15px;
+  }
+  .donation-button .button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .donation-email {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prayer-item {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+    padding: 5px;
+  }
+
+  .prayer-time {
+    align-self: flex-end;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+  #countdown {
+    font-size: 13px;
+    text-align: center;
+  }
+}

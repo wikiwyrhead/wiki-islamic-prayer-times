@@ -1,0 +1,92 @@
+/* Prayer Widget Styling */
+.wiki-prayer-times-widget {
+  text-align: center;
+  max-width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.prayer-list {
+  background: #e5e8d9; /* Pale Greenish Gray */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.prayer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #3e4f26; /* Dark Green */
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #c4c0a1; /* Earthy Olive Beige */
+}
+
+.prayer-item:last-child {
+  border-bottom: none;
+}
+
+.prayer-time {
+  background: #4f6326; /* Deep Gold */
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  min-width: 55px;
+  text-align: center;
+}
+
+/* Highlight Next Prayer */
+.next-prayer {
+  background: #a3d977 !important; /* Vibrant Islamic Green */
+  color: #3e4f26 !important;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Countdown Timer */
+#wptCountdown {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3e4f26;
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .prayer-item {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .prayer-time {
+    min-width: 50px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  #wptCountdown {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prayer-item {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 11px;
+    padding: 5px;
+  }
+
+  .prayer-time {
+    align-self: flex-end;
+    padding: 3px 5px;
+    font-size: 11px;
+  }
+
+  #wptCountdown {
+    font-size: 13px;
+    text-align: center;
+  }
+}
