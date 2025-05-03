@@ -5,7 +5,7 @@
  * Description: A responsive prayer times widget that displays Islamic prayer times with countdown timer.
  * Version: 1.1.1
  * Author: Arnel Go
- * Author URI: https://arnelgo.info/
+ * Author URI: https://arnelbg.com/
  * Plugin URI: https://github.com/wikiwyrhead/wiki-islamic-prayer-times
  * GitHub Plugin URI: https://github.com/wikiwyrhead/wiki-islamic-prayer-times
  * Text Domain: wiki-prayer-times
